@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="NunitoText" parent="TextAppearance.Material3.BodyMedium">
+        <item name="fontFamily">@font/nunito</item>
+        <item name="android:fontFamily">@font/nunito</item>
+    </style>
+
+    <style name="Base.Theme.Sample_project" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:windowBackground">@color/pink_1</item>
+        <item name="colorPrimary">@color/pink_4</item>
+        <item name="colorSecondary">@color/pink_3</item>
+        <item name="fontFamily">@font/nunito</item>
+        <item name="android:fontFamily">@font/nunito</item>
+        <item name="textAppearanceDisplayLarge">@style/NunitoText</item>
+        <item name="textAppearanceDisplayMedium">@style/NunitoText</item>
+        <item name="textAppearanceDisplaySmall">@style/NunitoText</item>
+        <item name="textAppearanceHeadlineLarge">@style/NunitoText</item>
+        <item name="textAppearanceHeadlineMedium">@style/NunitoText</item>
+        <item name="textAppearanceHeadlineSmall">@style/NunitoText</item>
+        <item name="textAppearanceTitleLarge">@style/NunitoText</item>
+        <item name="textAppearanceTitleMedium">@style/NunitoText</item>
+        <item name="textAppearanceTitleSmall">@style/NunitoText</item>
+        <item name="textAppearanceBodyLarge">@style/NunitoText</item>
+        <item name="textAppearanceBodyMedium">@style/NunitoText</item>
+        <item name="textAppearanceBodySmall">@style/NunitoText</item>
+        <item name="textAppearanceLabelLarge">@style/NunitoText</item>
+        <item name="textAppearanceLabelMedium">@style/NunitoText</item>
+        <item name="textAppearanceLabelSmall">@style/NunitoText</item>
+    </style>
+
+    <style name="Theme.Sample_project" parent="Base.Theme.Sample_project" />
+
+    <style name="PinkDialogTheme" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="colorAccent">@color/pink_3</item>
+        <item name="colorPrimary">@color/pink_4</item>
+        <item name="fontFamily">@font/nunito</item>
+        <item name="android:fontFamily">@font/nunito</item>
+
+        <item name="buttonBarPositiveButtonStyle">@style/PinkDialogButton</item>
+        <item name="buttonBarNegativeButtonStyle">@style/PinkDialogButton</item>
+        <item name="buttonBarNeutralButtonStyle">@style/PinkDialogButton</item>
+    </style>
+
+    <style name="PinkDialogButton" parent="Widget.AppCompat.Button.ButtonBar.AlertDialog">
+        <item name="android:textColor">@color/pink_3</item>
+    </style>
+
+    <style name="PinkTimePickerTheme" parent="Theme.MaterialComponents.DayNight.Dialog">
+        <item name="colorControlActivated">@color/pink_4</item>
+        <item name="colorControlNormal">@color/pink_3</item>
+        <item name="android:textColorPrimary">@color/pink_4</item>
+    </style>
+
+</resources>

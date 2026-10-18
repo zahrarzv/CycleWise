@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/sort_earliest_to_latest"
+        android:title="Earliest to latest" />
+
+    <item
+        android:id="@+id/sort_latest_to_earliest"
+        android:title="Latest to earliest" />
+</menu>

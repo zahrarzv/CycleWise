@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/tv_next_period"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/calculating_next_period"
+        android:textColor="@color/pink_4"
+        android:textSize="24sp"
+        android:layout_marginBottom="30dp"/>
+    <TextView
+        android:id="@+id/tv_avg_length"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/calculating_avg_cycle"
+        android:textColor="@color/pink_3"
+        android:textSize="20sp"
+        android:layout_marginBottom="30dp"/>
+
+    <TextView
+        android:id="@+id/tv_fertility"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/pink_3"
+        android:text="@string/calculating_fertility_today"
+        android:textSize="20sp"/>
+
+</LinearLayout>
