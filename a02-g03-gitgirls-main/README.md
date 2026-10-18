@@ -62,9 +62,7 @@ To run tests
 Winter 2026 Group project
 
 This project was created by :
-- Khadijat Folarin
 - Alice Pham
 - Zehra Rizvi
 - Sujana Islam Suhi
-- Krissy Tran
-- Charlotte Erkau
+
